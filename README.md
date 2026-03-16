@@ -10,6 +10,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 flet run [app_directory]
 ```
+![img](img.png)
 
 ## Todo
 - [ ] Выбрать путь где сохранить файл иначе в home
