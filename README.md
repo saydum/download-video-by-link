@@ -5,12 +5,15 @@ An example of a minimal Flet app.
 To run the app:
 
 ```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 flet run [app_directory]
 ```
 
 ## Todo
 - [ ] Выбрать путь где сохранить файл иначе в home
-- [ ] Добавить прогресс бар
+- [x] Добавить прогресс бар
 - [ ] Вывести сообщение после завершения
 - [ ] Выбрать качество для скачивания
 - [ ] Возможность выберать формат
